@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #525252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height: 300px;
+  background: transparent;
+  border: 8px solid black;
+  box-shadow: 10px 0 5px -2px black;
+  border-radius: 150px;
+    z-index: 1;
+}
+#secs{
+  position: absolute;
+  width: 2px;
+  height:35%;
+  background: black;
+  bottom: 50%;
+  z-index: 2;
+  transform-origin:0% 100% ;
+}
+#mins{
+  position: absolute;
+  width: 2px;
+  height:30%;
+  background: white;
+  margin-bottom: 50%;
+  left: 149px;  
+  bottom: 0px;
+  transform-origin:0% 100% ;
+  z-index:3 ;
+}
+#hours{
+  position: absolute;
+  width: 2px;
+  height:20%;
+  background: red;
+  margin-bottom: 50%;
+  left: 149px;  
+  bottom: 0px;
+  z-index:4 ;
+  transform-origin:0% 100% ;
+  
+}
+#dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background: black;
+  z-index: 5;
+}
+
+
+
+#container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height: 100px;
+  width: 250px;
+  background: #999999;
+  font-family: 'Orbitron', sans-serif;
+  border-radius:20%;
+  margin-bottom: 100px;
+ 
+}
+#hou{
+  height:70px;
+  width:50px;
+  margin:5px;
+  background:black;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:30px;
+  border:5px solid white;
+  border-radius: 10px;
+}
+#minuites{
+  height:70px;
+  width:50px;
+  margin:5px;
+  background:black;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:30px;
+  border:5px solid white;
+  border-radius: 10px;
+}
+#seconds{
+  height:70px;
+  width:50px;
+  margin:5px;
+  background:black;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:30px;
+  border:5px solid white;
+  border-radius: 10px;
+}

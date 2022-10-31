@@ -1,0 +1,79 @@
+*{
+  background: #636363;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+.mainTable{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: grey;
+  height: 300px;
+  width: 900px;
+  align-items: center;
+  font-size: 30px;
+}
+#Time{
+  width: 200px;
+  
+}
+#Destination{
+  width: 200px;
+
+}
+#Gate{
+  width: 200px;
+
+}
+#Status{
+  width: 200px;
+  margin-right:100px;
+  
+}
+
+#flight{
+  display: flex;
+  flex-direction: column;    
+}
+
+#tableHead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:900px ;
+  margin-bottom: 30px;
+  
+}
+.major{
+    display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+}
+.major th{
+ float:left;  
+}
+#tableBody tr{
+  display: flex;
+  flex-direction: colum;
+
+}
+#tableBody tr td{
+  display: flex;
+  flex-direction: wrap;
+  width: 200px;
+  
+}
+.flip{
+  background: black;
+  width: 20px;
+  font-size: 20px;
+  color:white ;
+  margin: 2px;
+  float: left;
+}
