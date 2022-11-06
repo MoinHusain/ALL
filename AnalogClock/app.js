@@ -21,4 +21,4 @@ console.log(hour)
 }
 
 getTime()
-     setInterval(getTme,1000)
+     setInterval(getTime,1000)

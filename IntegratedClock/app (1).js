@@ -21,7 +21,7 @@ console.log(hour)
 }
 
 getTime()
-     setInterval(getTim,1000)
+     setInterval(getTime,1000)
 
 
 
@@ -46,4 +46,4 @@ let digital=()=>{
 }
 digital()
 
-setInterval(digita,1000)
+setInterval(digital,1000)
